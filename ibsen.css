@@ -26,3 +26,27 @@
 .HORSTER {
     color:indigo;
 }
+table {
+    border-color: black;
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:brown;
+    color: white;
+    height: 50px;
+    background-color:firebrick;
+}
+td {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:crimson;
+    height: 30px;
+}
+
+
