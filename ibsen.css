@@ -1,10 +1,12 @@
 .speech
 {
+     font-family: Arial, Helvetica, sans-serif;
     color:black;
     font-size: medium;
 }
 .direction
 {
+    font-family: 'Times New Roman', Times, serif;
     background-color:lightpink;
     color: black;   
     font-size:small;
@@ -40,13 +42,36 @@ th {
     border-color:brown;
     color: white;
     height: 50px;
-    background-color:firebrick;
+    background-color:cornflowerblue;
 }
 td {
     border: 1px solid;
     border-radius: 5px;
     border-color:crimson;
+    background-color: lightcyan;
     height: 30px;
 }
+
+tr:hover {background-color:lightskyblue;}
+
+.MRSALVING:hover{
+    font-size: medium;
+    color: palevioletred;
+    text-shadow: 0 0 10px palevioletred;
+    border-style: dashed;
+    border-radius: 5px;
+}
+.REGINA:hover {
+    font-size: medium;
+    color: orange;
+    text-shadow: 0 0 10px orange;
+    border-style: dashed;
+    border-radius: 5px;}
+.MANDERS:hover {
+    font-size: medium;
+    color: cornflowerblue;
+    text-shadow: 0 0 10px cornflowerblue;
+    border-style: dashed;
+    border-radius: 5px;}
 
 
