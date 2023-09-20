@@ -1,33 +1,37 @@
-.speech
-{
-     font-family: Arial, Helvetica, sans-serif;
-    color:black;
+.speech {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     font-size: medium;
 }
-.direction
-{
+
+.direction {
     font-family: 'Times New Roman', Times, serif;
-    background-color:lightpink;
-    color: black;   
-    font-size:small;
+    background-color: lightpink;
+    color: black;
+    font-size: small;
 }
+
 .name {
-    color:darkblue;
+    color: darkblue;
 }
-.direction:hover
-{
-    color:chocolate;
-    background-color:blueviolet;
+
+.direction:hover {
+    color: chocolate;
+    background-color: blueviolet;
 }
+
 .MORTENKIIL {
-    color:darkmagenta;
+    color: darkmagenta;
 }
+
 .DRSTOCKMANN {
-    color:crimson;
+    color: crimson;
 }
+
 .HORSTER {
-    color:indigo;
+    color: indigo;
 }
+
 table {
     border-color: black;
     width: 80%;
@@ -36,42 +40,48 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
 th {
     border: 1px solid;
     border-radius: 5px;
-    border-color:brown;
+    border-color: brown;
     color: white;
     height: 50px;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
 }
+
 td {
     border: 1px solid;
     border-radius: 5px;
-    border-color:crimson;
+    border-color: crimson;
     background-color: lightcyan;
     height: 30px;
 }
 
-tr:hover {background-color:lightskyblue;}
+tr:hover {
+    background-color: burlywood;
+}
 
-.MRSALVING:hover{
+.MORTENKIIL:hover {
     font-size: medium;
-    color: palevioletred;
-    text-shadow: 0 0 10px palevioletred;
+    color: darkcyan;
+    text-shadow: 0 0 10px darkcyan;
     border-style: dashed;
     border-radius: 5px;
 }
-.REGINA:hover {
-    font-size: medium;
-    color: orange;
-    text-shadow: 0 0 10px orange;
-    border-style: dashed;
-    border-radius: 5px;}
-.MANDERS:hover {
-    font-size: medium;
-    color: cornflowerblue;
-    text-shadow: 0 0 10px cornflowerblue;
-    border-style: dashed;
-    border-radius: 5px;}
 
+.DRSTOCKMANN:hover {
+    font-size: medium;
+    color: darkmagenta;
+    text-shadow: 0 0 10px darkmagenta;
+    border-style: dashed;
+    border-radius: 5px;
+}
 
+.HORSTER:hover {
+    font-size: medium;
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
+    border-style: dashed;
+    border-radius: 5px;
+}
