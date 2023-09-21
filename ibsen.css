@@ -54,11 +54,10 @@ td {
     border: 1px solid;
     border-radius: 5px;
     border-color: crimson;
-    background-color: lightcyan;
     height: 30px;
 }
 
-tr:hover {
+tr:nth-child(even) {
     background-color: burlywood;
 }
 
